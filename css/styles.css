@@ -26,13 +26,14 @@ body {
     background-color: #EEE;
     min-width: 320px;
     min-height: 480px;
+    display: flex;
 }
 
 header {
     background-color: #34983C;
     height: 72px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -103,17 +104,15 @@ header {
 .window {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 96px;
     left: 0;
     display: flex;
     flex-direction: row-reverse;
-    overflow-y: scroll;
 }
 
 .navbar {
     position: absolute;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     z-index: 1;
