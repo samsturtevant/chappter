@@ -11,6 +11,7 @@ p {
 
 a {
     text-decoration: none;
+    transition: background .2s;
 }
 
 a:hover, a:focus {
@@ -121,7 +122,6 @@ header {
 .content {
     position: absolute;
     z-index: 0;
-    text-align: right;
 }
 
 /* drawer animation */
@@ -165,10 +165,10 @@ header {
 }
 
 .nav-icon {
-    height: 24px;
-    width: 24px;
+    height: 18px;
+    width: 18px;
     margin-right: 2rem;
-    padding-top: 1rem;
+    padding-top: 1.25rem;
     fill: #333;
 }
 
