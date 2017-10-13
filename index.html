@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- favicon -->
-    <link rel="icon" href="img/chappter-icon.ico">
+    <link rel="icon" href="img/favicon.png">
 </head>
 
 <body>
@@ -100,13 +100,28 @@
                 </a>
             </nav>
             <!-- content window -->
-            <div class="content">
-                
-            </div>
+            <iframe class="content" src="temp.html">
+            </iframe>
         </div>
     </main>
 
     <!-- js -->
+    
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyB5LbLdu8XV3B9roITzq5TUV801iWUc7bg",
+        authDomain: "chappter-1832.firebaseapp.com",
+        databaseURL: "https://chappter-1832.firebaseio.com",
+        projectId: "chappter-1832",
+        storageBucket: "",
+        messagingSenderId: "428772602463"
+    };
+    firebase.initializeApp(config);
+    </script>
+
     <script>
         document.querySelector("header .header-content .nav-button").addEventListener("click", function() {
             document.body.classList.toggle("nav-open");

@@ -1,3 +1,7 @@
+:root {
+    --main-color: #34983C;
+}
+
 * {
     font-size: 12px;
     font-family: Roboto;
@@ -31,7 +35,7 @@ body {
 }
 
 header {
-    background-color: #34983C;
+    background-color: var(--main-color);
     height: 72px;
     width: 100%;
     position: absolute;
@@ -174,6 +178,7 @@ header {
 
 .content {
     width: 100%;
+    border-style: none;
 }
 
 /* tablet */
@@ -206,7 +211,7 @@ header {
     }
 
     .navbar {
-        flex: 25%;
+        flex: 216px;
         margin-left: 3rem;
         margin-top: 2rem;
     }
@@ -220,6 +225,10 @@ header {
     }
 
     .content {
-        flex: 75%;
+        width: auto;
+        flex: 1;
+        left: 24rem;
+        margin-top: 2rem;
+        padding-left: 3rem;
     }
 }
