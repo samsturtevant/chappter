@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif!important;
+}
+
+.home-content {
+    padding-top: 5rem;
+}
+
+.hero-img {
+    height: auto;
+    max-width: 75%;
+}
+
+.cta {
+    width: 100%;
+}
+
+.side-nav {
+    display: none;
+}
+
+.nav-icon {
+    fill: rgba(255,255,255,.5);
+    height: 1rem;
+    width: 1rem;
+}
+
+.active {
+    fill: #FFF;
+}
+
+.side-nav svg {
+    fill: #343a40;
+}
+
+.side-nav .active {
+    fill: #FFF;
+}
+
+@media (min-width: 768px) {
+    
+    .cta {
+        width: 40%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .home-content {
+        padding-top: 7rem;
+        padding-left: 5rem;
+    }
+
+    .hero-title {
+        font-size: 6vw;
+    }
+
+    .hero-img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .cta {
+        margin: 0;
+    }
+
+    .portal-nav {
+        display: none;
+    }
+
+    .side-nav {
+        display: flex;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #343a40!important;
+    }
+
+}
