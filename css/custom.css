@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 1rem;
 }
 
+li .nav-link:hover svg, li .nav-link:focus svg {
+    fill: rgba(255,255,255,.8);
+}
+
 .active {
     fill: #FFF;
 }
@@ -40,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px) {
     
     .cta {
-        width: 40%;
+        width: 50%;
         margin: auto;
     }
 
@@ -48,9 +52,21 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
 
+    .portal {
+        background-color: #f8f9fa!important;
+    }
+
+    .navbar {
+        border-bottom: 12px solid #FFF;
+    }
+
     .home-content {
         padding-top: 7rem;
         padding-left: 5rem;
+    }
+
+    .login-options .container {
+        width: 400px;
     }
 
     .hero-title {
@@ -78,4 +94,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #343a40!important;
     }
 
+    .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+        background-color: rgba(0,0,0,.05);
+    }
 }
